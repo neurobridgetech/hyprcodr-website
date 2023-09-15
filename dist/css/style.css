@@ -8,6 +8,23 @@ body {
     margin: 0
 }
 
+/* ---------------------------------------------- */
+
+.fancy-list {
+    list-style: none;
+    padding: 0;
+}
+
+.fancy-list-item:before {
+    content: "\2713\0020";
+    color: #34a853;
+}
+
+
+/* ---------------------------------------------- */
+
+
+
 article,
 aside,
 footer,
@@ -667,16 +684,16 @@ label {
 .container-sm {
     width: 100%;
     margin: 0 auto;
-    padding-left: 16px;
-    padding-right: 16px
+   /*  padding-left: 16px;
+    padding-right: 16px */
 }
 
 @media (min-width: 481px) {
 
     .container,
     .container-sm {
-        padding-left: 24px;
-        padding-right: 24px
+        padding-left: 4px;
+        padding-right: 4px
     }
 }
 
@@ -689,7 +706,7 @@ label {
 }
 
 .container .container-sm {
-    max-width: 800px;
+    max-width: 1000px;
     padding-left: 0;
     padding-right: 0
 }
@@ -1544,6 +1561,15 @@ label {
     z-index: 1
 }
 
+.device-mockup1 {
+    position: relative;
+    width: 350px;
+    height: auto;
+    height: auto;
+    margin: 0 auto;
+    z-index: 1
+}
+
 .has-animations .features-extended {
     opacity: 0
 }
@@ -1571,7 +1597,8 @@ label {
 }
 
 .feature-extended {
-    padding: 24px 0
+    margin: 0;
+    padding: 48px 0
 }
 
 .feature-extended-image {
@@ -1590,6 +1617,7 @@ label {
 }
 
 .feature-extended-body {
+    width: 100%;
     text-align: center
 }
 
