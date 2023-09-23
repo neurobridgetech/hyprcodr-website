@@ -1,0 +1,51 @@
+<svg width="876" height="760" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Brightened Linear Gradient -->
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="b">
+      <!-- Change the stop-color to red -->
+      <stop stop-color="#FF4D4D" offset="0%"/>
+      <stop stop-color="#FF4D4D" stop-opacity="0" offset="100%"/>
+    </linearGradient>
+    <!-- Brightened Radial Gradient -->
+    <radialGradient cx="33.3%" cy="43.394%" fx="33.3%" fy="43.394%" r="58.741%" gradientTransform="matrix(.24453 -.95258 .76548 .3043 -.08 .62)" id="c">
+      <!-- Change the stop-color to red -->
+      <stop stop-color="#FF896A" stop-opacity="0" offset="0%"/>
+      <stop stop-color="#FF896A" stop-opacity=".64" offset="51.712%"/>
+      <stop stop-color="#FF896A" stop-opacity=".24" offset="100%"/>
+    </radialGradient>
+    <!-- Brightened Radial Gradient 2 -->
+    <radialGradient cx="33.3%" cy="43.394%" fx="33.3%" fy="43.394%" r="57.77%" id="d">
+      <!-- Change the stop-color to red -->
+      <stop stop-color="#FF896A" stop-opacity=".64" offset="0%"/>
+      <stop stop-color="#FF896A" stop-opacity=".24" offset="100%"/>
+    </radialGradient>
+    <filter x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox" id="e">
+      <feGaussianBlur in="SourceGraphic"/>
+    </filter>
+    <!-- Brightened Linear Gradient 2 -->
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="f">
+      <!-- Change the stop-color to red -->
+      <stop stop-color="#FF4D4D" stop-opacity=".8" offset="0%"/>
+      <stop stop-color="#FF4D4D" stop-opacity="0" offset="100%"/>
+    </linearGradient>
+    <filter id="a">
+      <feTurbulence type="fractalNoise" numOctaves="2" baseFrequency=".3" result="turb"/>
+      <feComposite in="turb" operator="arithmetic" k1=".1" k2=".1" k3=".1" k4=".1" result="result1"/>
+      <feComposite operator="in" in="result1" in2="SourceGraphic" result="finalFilter"/>
+      <feBlend mode="multiply" in="finalFilter" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" filter="url(#a)">
+    <path d="M173.286 346.278c37.75 237.363 436.799-108.302 173.285-173.139C83.058 108.302 268.99 0 173.286 0S0 77.517 0 173.14c0 95.621 135.536-64.225 173.286 173.138z" transform="matrix(-1 0 0 1 655 193)" fill="url(#b)"/>
+    <g transform="translate(432)">
+      <path d="M219.833 343c94.993 0 172-77.007 172-172s-87.598-167.172-172-135.18c-84.403 31.992-27 113.196-172 135.18-145 21.984 77.007 172 172 172z" fill="url(#c)" transform="matrix(-1 0 0 1 391.833 0)"/>
+      <circle fill-opacity=".72" fill="url(#d)" cx="183" cy="40" r="40"/>
+      <circle fill-opacity=".48" fill="url(#d)" filter="url(#e)" cx="298" cy="87" r="16"/>
+    </g>
+    <path d="M392.286 539.278c37.75 237.363 436.799-108.302 173.285-173.139C302.058 301.302 487.99 193 392.286 193S219 270.517 219 366.14c0 95.621 135.536-64.225 173.286 173.138z" fill="url(#f)"/>
+    <!-- Additional Particles -->
+    <circle fill="#FF4D4D" cx="600" cy="300" r="10"/>
+    <circle fill="#FF896A" cx="700" cy="500" r="15"/>
+    <circle fill="#FF4D4D" cx="300" cy="600" r="8"/>
+  </g>
+</svg>

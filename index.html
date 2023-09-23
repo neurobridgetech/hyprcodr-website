@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HyprCodr</title>
-    <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.css">
-    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HyprCodr</title>
+	<link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
+	<link rel="stylesheet" href="dist/css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap" rel="stylesheet">
+	<script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
+
 <body class="is-boxed has-animations">
-    <div class="body-wrap boxed-container">
-        <header class="site-header text-light">
+	<div class="body-wrap boxed-container">
+		<header class="site-header text-light">
 			<div class="container">
 				<div class="site-header-inner">
 					<div class="brand header-brand">
@@ -21,25 +29,26 @@
 					</div>
 					<h1 class="product-name m-0"></h1>
 					<div class="header-links">
-						<button class="login">Log In</button>
-						<button class="signup">Sign Up</button>
+						<!-- <button class="login">Log In</button>
+						<button class="signup">Sign Up</button> -->
 					</div>
 				</div>
 			</div>
 		</header>
 
-        <main>
-            <section class="hero text-center text-light">
+		<main>
+			<section class="hero text-center text-light">
 				<div class="hero-bg"></div>
 				<div class="hero-particles-container">
 					<canvas id="hero-particles"></canvas>
 				</div>
-                <div class="container-sm">
-                    <div class="hero-inner">
+				<div class="container-sm">
+					<div class="hero-inner">
 						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">HyprCodr: Your AI Assistant</h1>
-	                        <p class="hero-paragraph">Unlock the limitless potential of LLM capabilities with HyprCodr right within your coding environment</p>
-	                        <div class="hero-cta">
+							<h1 class="hero-title mt-0">HyprCodr: Your AI Assistant</h1>
+							<p class="hero-paragraph">Unlock the limitless potential of LLM capabilities with HyprCodr
+								right within your coding environment</p>
+							<div class="hero-cta">
 								<a class="button button-primary button-wide-mobile" href="#">Get early access</a>
 							</div>
 						</div>
@@ -47,85 +56,283 @@
 							<div class="mockup-bg">
 								<img src="dist/images/iphone-hero-bg.svg" alt="iPhone illustration">
 							</div>
-							<img class="device-mockup" src="dist/images/iphone-hero.png" alt="iPhone Hero">
+							<img class="device-mockup is-revealing" src="dist/images/vscode.png"
+								alt="iPhone Feature 01">
 						</div>
-                    </div>
-                </div>
-            </section>
+					</div>
+				</div>
+			</section>
 
 			<section class="features-extended section">
-                <div class="features-extended-inner section-inner">
+				<div class="features-extended-inner section-inner">
 					<div class="features-extended-wrap">
 						<div class="container">
-							<div class="feature-extended">
-								<div class="feature-extended-image">
-									<div class="mockup-bg">
-										<img src="dist/images/vscode.png" alt="iPhone Feature 01 illustration">
+
+							<div class="row feature-row-section">
+
+								<div class="col-md-8">
+									<div class="glassy-background1"></div>
+									<div class="box-shadow">
+										<img class="device-mockup is-revealing" src="dist/images/vscode.png"
+											alt="iPhone Feature 01">
 									</div>
-									<!-- <img class="device-mockup is-revealing" src="dist/images/vscode.png" alt="iPhone Feature 01"> -->
+									
+									<!-- <div class="feature-extended">
+										<div class="feature-extended-image">
+											
+											<div class="mockup-bg">
+												<img src="dist/images/vscode.png" alt="iPhone Feature 01 illustration">
+											</div>
+											<img class="device-mockup is-revealing" src="dist/images/vscode.png"
+												alt="iPhone Feature 01">
+										</div>
+									</div> -->
 								</div>
-								<div class="feature-extended-body is-revealing">
+								<div class="col-md-4 feature-text">
+									<div class="glassy-background2"></div>
+									<!-- <div class="feature-extended-body is-revealing"> -->
 									<h1 class="mt-0 mb-16 heading">Natural Language Coding Assistance</h1>
-									<ul class="fancy-list">
-										<li class="fancy-list-item">Leverage the power of natural language to effortlessly ask coding questions, request different perspectives, and obtain personalized code solutions.</li>
-										<li class="fancy-list-item">Select specific lines of code or files across your workspace to generate code with enhanced results.</li>
-										<li class="fancy-list-item">Generate entire files from scratch simply by describing your requirements to HyprCodr, making coding from the ground up a breeze.</li>
+
+									<ul class="sleek-list">
+
+										<li class="sleek-list-item">
+											<div class="glass-card purple-tone">
+
+
+												<p>Leverage the power of natural language to
+													effortlessly ask coding questions, request different perspectives,
+													and obtain personalized code solutions.</p>
+											</div>
+										</li>
+										<li class="sleek-list-item">
+											<div class="glass-card purple-tone">
+												<p>Select specific lines of code or files across your
+													workspace to generate code with enhanced results.</p>
+											</div>
+										</li>
+										<li class="sleek-list-item">
+											<div class="glass-card purple-tone">
+												<p>Generate entire files from scratch simply by
+													describing your requirements to HyprCodr, making coding from the
+													ground up a breeze.</p>
+											</div>
+										</li>
 									</ul>
-								</div>					
-							</div>
-							<div class="feature-extended">
-								<div class="feature-extended-image">
-									<div class="mockup-bg">
-										<img src="dist/images/iphone-feature-bg-02.svg" alt="iPhone Feature 02 illustration">
-									</div>
-									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-02.png" alt="iPhone Feature 02">
+									<!-- </div> -->
 								</div>
-								<div class="feature-extended-body is-revealing">
+							</div>
+							<div class="row feature-row-section">
+								<div class="col-md-4 feature-text">
+									<!-- <div class="feature-extended-body is-revealing"> -->
 									<h1 class="mt-0 mb-16 heading"> Enhanced Unit Testing and Debugging</h1>
-									<ul class="fancy-list">
-										<li class="fancy-list-item">Elevate code reliability with meticulous function testing, ensuring a dependable codebase.</li>
-										<li class="fancy-list-item">Access error solutions directly from Google and Stack Overflow and collaborate seamlessly with HyprCodr for real-time debugging expertise.</li>
-										<li class="fancy-list-item">Provide URL links to add context and enhance the debugging process further.</li>
+									<ul class="sleek-list">
+										<li class="sleek-list-item">
+											<div class="glass-card purple-tone">
+												<p>Elevate code reliability with meticulous function testing, ensuring a
+													dependable codebase.</p>
+											</div>
+										</li>
+										<li class="sleek-list-item">
+											<div class="glass-card purple-tone">
+												<p>Access error solutions directly from Google and Stack Overflow and
+													collaborate seamlessly with HyprCodr for real-time debugging
+													expertise.</p>
+											</div>
+										</li>
+										<li class="sleek-list-item">
+											<div class="glass-card purple-tone">
+												<p>Provide URL links to add context and enhance the debugging process
+													further.</p>
+											</div>
+										</li>
 									</ul>
-								</div>	
-							</div>
-							<div class="feature-extended">
-								<div class="feature-extended-image">
-									<div class="mockup-bg">
-										<img src="dist/images/iphone-feature-bg-03.svg" alt="iPhone Feature 03 illustration">
-									</div>
-									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-03.png" alt="iPhone Feature 03">
+
+									<!-- </div> -->
 								</div>
-								<div class="feature-extended-body is-revealing">
+
+								<div class="col-md-8">
+									<img class="device-mockup is-revealing" src="dist/images/vscode.png"
+										alt="iPhone Feature 01">
+									<!-- <div class="feature-extended">
+										<div class="feature-extended-image">
+											<div class="mockup-bg">
+												<img src="dist/images/iphone-feature-bg-02.svg"
+													alt="iPhone Feature 02 illustration">
+											</div>
+											
+										</div>
+									</div> -->
+								</div>
+							</div>
+
+							<div class="row feature-row-section">
+								<div class="col-md-8">
+									<img class="device-mockup is-revealing" src="dist/images/vscode.png"
+										alt="iPhone Feature 01">
+									<!-- 									<div class="feature-extended">
+										<div class="feature-extended-image">
+											<div class="mockup-bg">
+												<img src="dist/images/iphone-feature-bg-03.svg"
+													alt="iPhone Feature 03 illustration">
+											</div>
+											
+										</div>
+									</div> -->
+								</div>
+								<div class="col-md-4 feature-text">
+									<!-- <div class="feature-extended-body is-revealing"> -->
 									<h1 class="mt-0 mb-16 heading">Comprehensive Code Documentation</h1>
-									<ul class="fancy-list">
-										<li class="fancy-list-item">Automatically generate structured comments for a well-documented codebase, enhancing code clarity and maintainability.</li>
-										<li class="fancy-list-item">Simplify documentation tasks with HyprCodr's automatic README file generation.</li>
-										<li class="fancy-list-item">Gain invaluable insights into your code's functionality with line-by-line explanations.</li>
+									<ul class="sleek-list">
+										<li class="sleek-list-item">
+											<div class="glass-card purple-tone">
+												<p>Automatically generate structured comments
+													for a well-documented codebase, enhancing code clarity and
+													maintainability.</p>
+											</div>
+										</li>
+										<li class="sleek-list-item">
+											<div class="glass-card purple-tone">
+												<p>Simplify documentation tasks with HyprCodr's
+													automatic README file generation.</p>
+											</div>
+										</li>
+										<li class="sleek-list-item">
+											<div class="glass-card purple-tone">
+												<p>Gain invaluable insights into your code's
+													functionality with line-by-line explanations.</p>
+											</div>
+										</li>
 									</ul>
-								</div>	
-							</div>
-							<div class="feature-extended">
-								<div class="feature-extended-image">
-									<div class="mockup-bg">
-										<img src="dist/images/iphone-feature-bg-04.svg" alt="iPhone Feature 04 illustration">
-									</div>
-									<img class="device-mockup is-revealing" src="dist/images/iphone-feature-04.png" alt="iPhone Feature 04">
+									<!-- </div> -->
 								</div>
-								<div class="feature-extended-body is-revealing">
-									<h1 class="mt-0 mb-16 heading">Streamlined Code Editing and Quality Enhancement</h1>
-									<ul class="fancy-list">
-										<li class="fancy-list-item">Save time and eliminate the need to switch between windows by accessing extensive context directly within VSCode.</li>
-										<li class="fancy-list-item">Select text and let HyprCodr improve code quality by adding comments, completing shortcuts, and helping you catch and rectify mistakes swiftly.</li>
-										<li class="fancy-list-item">Accelerate your coding workflow and enhance code quality through HyprCodr's smart editing features.</li>
+							</div>
+
+							<div class="row feature-row-section">
+								<div class="col-md-4 feature-text">
+									<!-- <div class="feature-extended-body is-revealing"> -->
+									<h1 class="mt-0 mb-16 heading">Streamlined Code Editing and Quality
+										Enhancement</h1>
+									<ul class="sleek-list">
+										
+										<li class="sleek-list-item">
+											<div class="glass-card purple-tone">
+												<p>Save time and eliminate the need to switch
+													between
+													windows by accessing extensive context directly within VSCode.</p>
+											</div>
+										</li>
+										<li class="sleek-list-item">
+											<div class="glass-card purple-tone">
+												<p>Select text and let HyprCodr improve code
+													quality by adding comments, completing shortcuts,
+													and helping you catch and rectify mistakes swiftly.</p>
+											</div>
+										</li>
+										<li class="sleek-list-item">
+											<div class="glass-card purple-tone">
+												<p>Accelerate your coding workflow and enhance code
+													quality through HyprCodr's smart editing features.</p>
+											</div>
+										</li>
 									</ul>
-								</div>	
+									<!-- </div> -->
+								</div>
+								<div class="col-md-8">
+									<img class="device-mockup is-revealing" src="dist/images/vscode.png"
+										alt="iPhone Feature 01">
+									<!-- <div class="feature-extended">
+										<div class="feature-extended-image">
+											<div class="mockup-bg">
+												<img src="dist/images/iphone-feature-bg-04.svg"
+													alt="iPhone Feature 04 illustration">
+											</div>
+											<img class="device-mockup is-revealing" src="dist/images/vscode.png"
+												alt="iPhone Feature 01">
+										</div>
+									</div> -->
+								</div>
 							</div>
 						</div>
 					</div>
-                </div>
-            </section>
-        </main>
+			</section>
+
+			<section>
+				<div class="container-table">
+					<!-- Product Comparison Table -->
+					<div class="table-responsive">
+						<table class="table table-striped text-successtable-border border-light">
+							<thead class="border-light">
+								<tr>
+									<th scope="col"></th>
+									<th scope="col"><strong>Basic</strong></th>
+									<th scope="col"><strong>Standard</strong></th>
+									<th scope="col"><strong>Premium</strong></th>
+									<th scope="col"><strong>Managed</strong></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">HDD Storage</th>
+									<td>700 MB</td>
+									<td>1,5 GB</td>
+									<td>50 GB</td>
+									<td>up to 5T</i></td>
+								</tr>
+								<tr>
+									<th scope="row">Web Server</th>
+									<td><i class="fas fa-check"></i></td>
+									<td><i class="fas fa-check"></i></td>
+									<td><i class="fas fa-check"></i></td>
+									<td><i class="fas fa-check"></i></td>
+								</tr>
+								<tr>
+									<th scope="row">Database</th>
+									<td>-</td>
+									<td>Optional</td>
+									<td><i class="fas fa-check"></i></td>
+									<td><i class="fas fa-check"></i></td>
+								</tr>
+								<tr>
+									<th scope="row">DNS</th>
+									<td>-</td>
+									<td>-</td>
+									<td><i class="fas fa-check"></i></td>
+									<td><i class="fas fa-check"></i></td>
+								</tr>
+								<tr>
+									<th scope="row">Backups</th>
+									<td>-</td>
+									<td>-</td>
+									<td><i class="fas fa-check"></i></td>
+									<td><i class="fas fa-check"></i></td>
+								</tr>
+								<tr>
+									<th scope="row">Tech Support</th>
+									<td>None</td>
+									<td>35$/incident</td>
+									<td>15$/incident</td>
+									<td>24/7 included</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td class="fw-bold">Free</td>
+									<td class="fw-bold">$99/mo</td>
+									<td class="fw-bold">$179/mo</td>
+									<td class="fw-bold"><a href>Contact us</a></td>
+								</tr>
+								<tr>
+									<th class=""></th>
+									<th class=""><button class="btn btn-primary">Sign-up</button></th>
+									<th class=""><button class="btn btn-primary">Buy Now</button></th>
+									<th class=""><button class="btn btn-primary">Buy Now</button></th>
+									<th class=""></th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</section>
+		</main>
 
 		<footer class="site-footer">
 			<div class="footer-particles-container">
@@ -137,7 +344,7 @@
 						<div class="cta-inner section-inner">
 							<div class="cta-header text-center">
 								<h2 class="section-title mt-0">Stay in the know</h2>
-								<p class="section-paragraph">Lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation.</p>
+								<p class="section-paragraph">Unlock the future of coding with HyprCodr's exclusive Early Access.</p>
 								<div class="cta-cta">
 									<a class="button button-primary button-wide-mobile" href="#">Get early access</a>
 								</div>
@@ -151,7 +358,7 @@
 					<div class="site-footer-inner">
 						<div class="brand footer-brand">
 							<a href="#">
-								<img src="dist/images/logo.svg" alt="Venus logo">
+								<img src="src/images/logos/hyprcodr logo nobg.png" alt="HyprCodr logo" style="height: 12vb; width: 25vb;">
 							</a>
 						</div>
 						<ul class="footer-links list-reset">
@@ -173,7 +380,9 @@
 								<a href="#">
 									<span class="screen-reader-text">Facebook</span>
 									<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-										<path d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z" fill="#FFF"/>
+										<path
+											d="M6.023 16L6 9H3V6h3V4c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V6H13l-1 3H9.28v7H6.023z"
+											fill="#FFF" />
 									</svg>
 								</a>
 							</li>
@@ -181,7 +390,9 @@
 								<a href="#">
 									<span class="screen-reader-text">Twitter</span>
 									<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-										<path d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z" fill="#FFF"/>
+										<path
+											d="M16 3c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4C.7 7.7 1.8 9 3.3 9.3c-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H0c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4C15 4.3 15.6 3.7 16 3z"
+											fill="#FFF" />
 									</svg>
 								</a>
 							</li>
@@ -189,18 +400,24 @@
 								<a href="#">
 									<span class="screen-reader-text">Google</span>
 									<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-										<path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" fill="#FFF"/>
+										<path
+											d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z"
+											fill="#FFF" />
 									</svg>
 								</a>
 							</li>
 						</ul>
-						<div class="footer-copyright">&copy; 2018 Venus, all rights reserved</div>
+						<div class="footer-copyright">&copy; 2023 HyprCodr, all rights reserved</div>
 					</div>
 				</div>
 			</div>
-        </footer>
-    </div>
+		</footer>
+	</div>
 
-    <script src="dist/js/main.min.js"></script>
+	<script src="dist/js/main.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>
