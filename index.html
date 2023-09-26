@@ -12,6 +12,8 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap" rel="stylesheet">
 	<script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -63,6 +65,46 @@
 				</div>
 			</section>
 
+			<section id="statistic" class="statistic-section one-page-section">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-xs-12 col-md-3">
+							<div class="counter">
+								<i class="fa fa-coffee fa-2x stats-icon"></i>
+								<h2 class="timer count-title count-number">999</h2>
+								<div class="stats-line-black"></div>
+								<p class="stats-text">Coffee Cups</p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-3">
+							<div class="counter">
+								<i class="fa fa-code fa-2x stats-icon"></i>
+								<h2 class="timer count-title count-number">10000
+								</h2>
+								<div class="stats-line-black"></div>
+								<p class="stats-text">Line Code</p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-3">
+							<div class="counter">
+								<i class="fa fa-clock-o fa-2x stats-icon"></i>
+								<h2 class="timer count-title count-number">6</h2>
+								<div class="stats-line-black"></div>
+								<p class="stats-text">Years Experience</p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-md-3">
+							<div class="counter">
+								<i class="fa fa-laptop fa-2x stats-icon"></i>
+								<h2 class="timer count-title count-number">12</h2>
+								<div class="stats-line-black"></div>
+								<p class="stats-text">Project</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
 			<section class="features-extended section">
 				<div class="features-extended-inner section-inner">
 					<div class="features-extended-wrap">
@@ -71,12 +113,14 @@
 							<div class="row feature-row-section">
 
 								<div class="col-md-8">
-									<div class="glassy-background1"></div>
+
 									<div class="box-shadow">
+
 										<img class="device-mockup is-revealing" src="dist/images/vscode.png"
 											alt="iPhone Feature 01">
 									</div>
-									
+
+
 									<!-- <div class="feature-extended">
 										<div class="feature-extended-image">
 											
@@ -89,18 +133,21 @@
 									</div> -->
 								</div>
 								<div class="col-md-4 feature-text">
-									<div class="glassy-background2"></div>
+									<!-- <div class="glassy-background2"></div> -->
 									<!-- <div class="feature-extended-body is-revealing"> -->
 									<h1 class="mt-0 mb-16 heading">Natural Language Coding Assistance</h1>
 
-									<ul class="sleek-list">
 
+
+									<ul class="sleek-list">
+										<div class="glassy-background2"></div>
 										<li class="sleek-list-item">
 											<div class="glass-card purple-tone">
 
 
 												<p>Leverage the power of natural language to
-													effortlessly ask coding questions, request different perspectives,
+													effortlessly ask coding questions, request different
+													perspectives,
 													and obtain personalized code solutions.</p>
 											</div>
 										</li>
@@ -118,7 +165,7 @@
 											</div>
 										</li>
 									</ul>
-									<!-- </div> -->
+
 								</div>
 							</div>
 							<div class="row feature-row-section">
@@ -126,6 +173,7 @@
 									<!-- <div class="feature-extended-body is-revealing"> -->
 									<h1 class="mt-0 mb-16 heading"> Enhanced Unit Testing and Debugging</h1>
 									<ul class="sleek-list">
+										<div class="glassy-background2"></div>
 										<li class="sleek-list-item">
 											<div class="glass-card purple-tone">
 												<p>Elevate code reliability with meticulous function testing, ensuring a
@@ -183,6 +231,7 @@
 									<!-- <div class="feature-extended-body is-revealing"> -->
 									<h1 class="mt-0 mb-16 heading">Comprehensive Code Documentation</h1>
 									<ul class="sleek-list">
+										<div class="glassy-background2"></div>
 										<li class="sleek-list-item">
 											<div class="glass-card purple-tone">
 												<p>Automatically generate structured comments
@@ -213,7 +262,7 @@
 									<h1 class="mt-0 mb-16 heading">Streamlined Code Editing and Quality
 										Enhancement</h1>
 									<ul class="sleek-list">
-										
+										<div class="glassy-background2"></div>
 										<li class="sleek-list-item">
 											<div class="glass-card purple-tone">
 												<p>Save time and eliminate the need to switch
@@ -256,83 +305,71 @@
 					</div>
 			</section>
 
-			<section>
-				<div class="container-table">
-					<!-- Product Comparison Table -->
-					<div class="table-responsive">
-						<table class="table table-striped text-successtable-border border-light">
-							<thead class="border-light">
-								<tr>
-									<th scope="col"></th>
-									<th scope="col"><strong>Basic</strong></th>
-									<th scope="col"><strong>Standard</strong></th>
-									<th scope="col"><strong>Premium</strong></th>
-									<th scope="col"><strong>Managed</strong></th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<th scope="row">HDD Storage</th>
-									<td>700 MB</td>
-									<td>1,5 GB</td>
-									<td>50 GB</td>
-									<td>up to 5T</i></td>
-								</tr>
-								<tr>
-									<th scope="row">Web Server</th>
-									<td><i class="fas fa-check"></i></td>
-									<td><i class="fas fa-check"></i></td>
-									<td><i class="fas fa-check"></i></td>
-									<td><i class="fas fa-check"></i></td>
-								</tr>
-								<tr>
-									<th scope="row">Database</th>
-									<td>-</td>
-									<td>Optional</td>
-									<td><i class="fas fa-check"></i></td>
-									<td><i class="fas fa-check"></i></td>
-								</tr>
-								<tr>
-									<th scope="row">DNS</th>
-									<td>-</td>
-									<td>-</td>
-									<td><i class="fas fa-check"></i></td>
-									<td><i class="fas fa-check"></i></td>
-								</tr>
-								<tr>
-									<th scope="row">Backups</th>
-									<td>-</td>
-									<td>-</td>
-									<td><i class="fas fa-check"></i></td>
-									<td><i class="fas fa-check"></i></td>
-								</tr>
-								<tr>
-									<th scope="row">Tech Support</th>
-									<td>None</td>
-									<td>35$/incident</td>
-									<td>15$/incident</td>
-									<td>24/7 included</td>
-								</tr>
-								<tr>
-									<td></td>
-									<td class="fw-bold">Free</td>
-									<td class="fw-bold">$99/mo</td>
-									<td class="fw-bold">$179/mo</td>
-									<td class="fw-bold"><a href>Contact us</a></td>
-								</tr>
-								<tr>
-									<th class=""></th>
-									<th class=""><button class="btn btn-primary">Sign-up</button></th>
-									<th class=""><button class="btn btn-primary">Buy Now</button></th>
-									<th class=""><button class="btn btn-primary">Buy Now</button></th>
-									<th class=""></th>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-				</div>
-			</section>
 		</main>
+
+		<section class="comparison-section">
+			<div class="container">
+				<h1>Product Comparison</h1>
+				<table>
+					<thead>
+						<tr>
+							<th>Product</th>
+							<th>Github CoPilot</th>
+							<th>CodeWave</th>
+							<th>TabNine</th>
+							<th>HyprCodr</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Autocompletion</td>
+							<td>&#10003;</td>
+							<td>&#10003;</td>
+							<td>&#10003;</td>
+							<td>&#10003;</td>
+						</tr>
+						<tr>
+							<td>Code Suggestions</td>
+							<td>&#10003;</td>
+							<td>&#10003;</td>
+							<td>&#10003;</td>
+							<td>&#10003;</td>
+						</tr>
+						<tr>
+							<td>Code Quality Analysis</td>
+							<td>&#10003;</td>
+							<td>&#10003;</td>
+							<td>&#10003;</td>
+							<td>&#10003;</td>
+						</tr>
+						<tr>
+							<td>Integration with IDEs</td>
+							<td>&#10003;</td>
+							<td>&#10003;</td>
+							<td>&#10003;</td>
+							<td>&#10003;</td>
+						</tr>
+						<tr>
+							<td>Customization</td>
+							<td>&#10007;</td>
+							<td>&#10007;</td>
+							<td>&#10007;</td>
+							<td>&#10003;</td>
+						</tr>
+						<tr>
+							<td>Price</td>
+							<td>Free</td>
+							<td>$99/month</td>
+							<td>$29/month</td>
+							<td>Varies</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+
+
 
 		<footer class="site-footer">
 			<div class="footer-particles-container">
@@ -344,7 +381,8 @@
 						<div class="cta-inner section-inner">
 							<div class="cta-header text-center">
 								<h2 class="section-title mt-0">Stay in the know</h2>
-								<p class="section-paragraph">Unlock the future of coding with HyprCodr's exclusive Early Access.</p>
+								<p class="section-paragraph">Unlock the future of coding with HyprCodr's exclusive Early
+									Access.</p>
 								<div class="cta-cta">
 									<a class="button button-primary button-wide-mobile" href="#">Get early access</a>
 								</div>
@@ -358,7 +396,8 @@
 					<div class="site-footer-inner">
 						<div class="brand footer-brand">
 							<a href="#">
-								<img src="src/images/logos/hyprcodr logo nobg.png" alt="HyprCodr logo" style="height: 12vb; width: 25vb;">
+								<img src="src/images/logos/hyprcodr logo nobg.png" alt="HyprCodr logo"
+									style="height: 12vb; width: 25vb;">
 							</a>
 						</div>
 						<ul class="footer-links list-reset">
@@ -415,9 +454,23 @@
 	</div>
 
 	<script src="dist/js/main.min.js"></script>
+	<!-- Add jQuery before Counter-Up -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
 		crossorigin="anonymous"></script>
+
+	<script>
+		$(document).ready(function () {
+			$('.count-number').counterUp({
+				delay: 10,
+				time: 1000 // Reduce the time to make it faster (in milliseconds)
+			});
+		});
+	</script>
+
 </body>
 
 </html>

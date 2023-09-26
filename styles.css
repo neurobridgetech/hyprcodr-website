@@ -1,0 +1,42 @@
+.comparison-section {
+    font-family: Arial, sans-serif;
+    background-color: #0b0d19;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+} */
+
+h1 {
+    color: #fff;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+th {
+    background: linear-gradient(to bottom, #f77932, #894cff);
+    color: #fff;
+}
+
+td {
+    background: #0b0d19;
+    color: #fff;
+}
+
+/* Add more CSS for responsiveness if needed */
