@@ -147,7 +147,7 @@ body {
     margin-bottom: 0;
     text-align: center;
     font-weight: bold;
-    color: #000;
+    color: #0b0d19;
 }
 
 .stats-text {
@@ -156,7 +156,7 @@ body {
     margin-top: 15px;
     margin-bottom: 0;
     text-align: center;
-    color: #000;
+    color: #0b0d19;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -173,7 +173,7 @@ body {
     margin: 0 auto;
     float: none;
     display: table;
-    color: #fff;
+    color: #0b0d19;
 }
 
 @media (max-width: 992px) {
